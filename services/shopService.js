@@ -1,5 +1,5 @@
 // const express = require('express')
-const shopList = require('../dbconnections/mongoSchema')
+const shopList = require('../dbconnections/shoppinglist')
 
 let obj = {}
 
