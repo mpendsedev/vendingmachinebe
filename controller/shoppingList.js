@@ -8,13 +8,10 @@ var shopService = require('../services/shopService')
 
 router.get('/printall', shopService.printAll);
 
+router.get('/listprintall', shopService.listprintall);
 
-// router.get('/printall', (req, res) => {
-//     shopService.
-//     res.send('in print all!')
-//   })
-  
+router.post('/updateall', shopService.updateall);
 
-
+router.get('/removeall', shopService.removeall);
 
 module.exports = router
